@@ -1,5 +1,5 @@
 README.md:
 	touch README.md
-	echo "#Guessing Game" > README.md
-	echo "Make was run on $$(date)" >> README.md
-	echo "There are $$(wc -l < guessinggame.sh) lines of code in guessinggame.sh" >> README.md	
+	echo -e "#Guessing Game\n" > README.md
+	echo -e "Make was run on $$(date)\n" >> README.md
+	echo -e "There are $$(wc -l < guessinggame.sh) lines of code in guessinggame.sh" >> README.md	
